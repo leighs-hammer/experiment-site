@@ -85,3 +85,12 @@ hr {
 
 input, select {
   vertical-align: middle; }
+
+/***
+* Layout
+*/
+.Grid {
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto); }
